@@ -1,9 +1,11 @@
 <html>
     <head>
         <link href="lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
     </head>
     <body>
-        <nav class="navbar navbar-default">
+        <header class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
@@ -13,24 +15,28 @@
                     </button>
                     <a class="navbar-brand" href="#">Web Bootcamp Club</a>
                 </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="active">
-                        <a href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                        </ul>
-                    </li>
-                </ul>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active">
+                            <a href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </nav>
-        <div class="container-fluid">
-            <div class="jumbotron">
-                <h1>Welcome!</h1>
-                <p>This is the official site for Purdue's Web Bootcamp Club!</p>
+        </header>
+        <div style="background: #33B5e5; padding: 60px">
+            <div class="container">
+                <div>
+                    <h1 style="font-size: 60px">Welcome!</h1>
+                    <p>This is the official site for Purdue's Web Bootcamp Club!</p>
+                    <button class="btn btn-default btn-lg" style="background: none">Click Me!</button>
+                </div>
             </div>
         </div>
         <script src="lib/jquery/dist/jquery.js"></script>
