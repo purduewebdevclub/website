@@ -6,30 +6,24 @@
         <title>Web Bootcamp Club</title>
     </head>
     <body>
-        <div class="navbar navbar-fixed-top" style="background: transparent;">
+        <div class="navbar navbar-fixed-top" style="background: transparent;" id="start">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand white" href="#">Web Bootcamp Club</a>
+                    <a class="navbar-brand white" data-scroll href="#start">Web Bootcamp Club</a>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="active">
-                            <a class="white" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="white" data-scroll href="#start">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="active">
-                            <a class="white" href="#founders">Who are we? <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle white" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                            </ul>
+                            <a class="white" data-scroll href="#founders">Who are we? <span class="sr-only">(current)</span></a>
                         </li>
                     </ul>
                 </div>
@@ -43,24 +37,31 @@
                 </div>
             </div>
         </div>
-        <div style="background: #3F51B5; padding: 60px" id="founders">
+        <div style="background: #4F51B5; padding: 60px" class="white">
+            <p>
+                Want to build amazing looking websites? You've come to the right place!
+                Purdue's Web BootCamp club teaches anyone and everyone how to code and 
+                build their own websites from <strong>scratch!</strong>
+            </p>
+        </div>
+        <div style="background: #00BCD4; padding: 60px" id="founders">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
                         <img class="img-circle center-block" height="200px" width="200px" src="profile2.jpg">
-                        <p class="white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+                        <p class="gray">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
                     </div>
                     <div class="col-md-3">
                         <img class="img-circle center-block" height="200px" width="200px" src="anubhav.jpg">
-                        <p class="white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+                        <p class="gray">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
                     </div>
                     <div class="col-md-3">
                         <img class="img-circle center-block img-responsive" height="200px" width="200px" src="https://scontent-ord1-1.xx.fbcdn.net/hphotos-xlf1/v/t1.0-9/12509300_1024470957576266_1964020395265004203_n.jpg?oh=312d1a7330f08655df477ee54d519b5d&oe=57366587">
-                        <p class="white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+                        <p class="gray">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
                     </div>
                     <div class="col-md-3">
                         <img class="img-circle center-block img-responsive" height="200px" width="200px" src="https://scontent-ord1-1.xx.fbcdn.net/hphotos-xlf1/v/t1.0-9/12509300_1024470957576266_1964020395265004203_n.jpg?oh=312d1a7330f08655df477ee54d519b5d&oe=57366587">
-                        <p class="white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+                        <p class="gray">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
                     </div>
                 </div>
             </div>
@@ -68,6 +69,11 @@
         <footer class="footer white text-center">MIT License</footer>
         <script src="lib/jquery/dist/jquery.js"></script>
         <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="lib/smooth-scroll/dist/js/smooth-scroll.js"></script>
+        <script>
+            smoothScroll.init();
+        </script>
+        <script src="scroll.js"></script>
     </body>
 </html>
 
