@@ -1,6 +1,9 @@
 .white {
     color: white;
 }
+.gray {
+    color: #212121;
+}
 body, html {
     height:100%;
     padding:0;
@@ -11,6 +14,10 @@ body, html {
     width:100;
     height: 60px;
 }
+<<<<<<< HEAD
 .icon-bar {
     color: black;
 }
+=======
+
+>>>>>>> 8dca4c1ac315481092a1e6d4e83b827b31466140
