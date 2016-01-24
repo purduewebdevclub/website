@@ -16,7 +16,6 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "~3.3.6",
-    "smooth-scroll": "https://github.com/cferdinandi/smooth-scroll.git#~10.0.0"
+    "bootstrap": "~3.3.6"
   }
 }

@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
         <link href="styles.css" rel="stylesheet">
         <title>Web Bootcamp Club</title>
     </head>
     <body>
-        <div class="navbar navbar-fixed-top" style="background: transparent;" id="start">
-            <div class="container">
+        <div class="navbar navbar-fixed-top" style="background: transparent;">
+            <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
@@ -15,30 +16,28 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand white" data-scroll href="#start">Web Bootcamp Club</a>
+                    <a class="navbar-brand white" href="#start">Web Bootcamp Club</a>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="active">
-                            <a class="white" data-scroll href="#start">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="active">
-                            <a class="white" data-scroll href="#founders">Who are we? <span class="sr-only">(current)</span></a>
+                            <a class="white" href="#start">Home <span class="sr-only">(current)</span></a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div style="background: url(background.jpg); padding: 100px; height: 100%">
+        <div style="background: url(background.jpg); height: 100%; position: relative" id="start">
             <div class="container">
-                <div class="text-center pagination-centered" style="margin-top: 20%">
+                <div style="position: absolute; top: 50%; transform: translateY(-50%)">
                     <h1 class="white" style="font-size: 60px">Web Bootcamp Club</h1>
-                    <h4 class="white">Learn how to make your own website</h3>
+                    <h4 class="white">Learn how to make your own website</h4>
+                    <a class="btn btn-round btn-lg" href="#founders">Who are we?</a>
                 </div>
             </div>
         </div>
         <div style="background: #4F51B5; padding: 60px" class="white">
-            <p>
+            <p class="text-center">
                 Want to build amazing looking websites? You've come to the right place!
                 Purdue's Web BootCamp club teaches anyone and everyone how to code and 
                 build their own websites from <strong>scratch!</strong>
@@ -69,10 +68,6 @@
         <footer class="footer white text-center">MIT License</footer>
         <script src="lib/jquery/dist/jquery.js"></script>
         <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
-        <script src="lib/smooth-scroll/dist/js/smooth-scroll.js"></script>
-        <script>
-            smoothScroll.init();
-        </script>
         <script src="scroll.js"></script>
     </body>
 </html>

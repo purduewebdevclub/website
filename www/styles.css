@@ -14,4 +14,17 @@ body, html {
     width:100;
     height: 60px;
 }
+a:visited, a:hover {
+    text-decoration: none;
+}
+.btn-round, .btn-round:hover, .btn-round:active, .btn-round:link, .btn-round:visited {
+    border-radius: 10px;
+    text-decoration: none;
+    background: none;
+    border-color: #FF5722;
+    color: white;
+}
+img {
+    padding: 10px;
+}
 
