@@ -17,12 +17,15 @@ body, html {
 a:visited, a:hover {
     text-decoration: none;
 }
-.btn-round, .btn-round:hover, .btn-round:active, .btn-round:link, .btn-round:visited {
+.btn-round, .btn-round:active, .btn-round:link, .btn-round:visited {
     border-radius: 10px;
     text-decoration: none;
     background: none;
     border-color: #FF5722;
     color: white;
+}
+.btn-round:hover {
+    border-color: white;
 }
 img {
     padding: 10px;
