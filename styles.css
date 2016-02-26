@@ -25,12 +25,17 @@ html {
     height: 60px;
 }
 
-a {
-  color: #ffe700;
+.underlined-link {
+    color: #ffe700;
+    text-decoration: underline;
 }
-a:visited, a:hover {
+.underlined-link:hover {
+    color: #ffe700;
     text-decoration: none;
-    color: blue;
+}
+.underlined-link:visited {
+    color: #ffe700;
+    text-decoration: none;
 }
 .btn-round, .btn-round:active, .btn-round:link, .btn-round:visited {
     border-radius: 10px;
