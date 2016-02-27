@@ -1,4 +1,7 @@
 $(function() {
+    var width = $(window).width();
+    var height = $(window).height();
+    $(".header").height(height);
     $(window).scroll(function() {
         if($(this).scrollTop() !== 0) {
             var nav = $(".navbar");
