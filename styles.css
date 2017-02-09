@@ -38,6 +38,10 @@
     border-color: #FF5722;
     color: white;
 }
+
+.newlink a {
+    color : yellow;
+}
 .btn-round:hover {
     border-color: white;
 }
